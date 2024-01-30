@@ -1,0 +1,8 @@
+Default Methods Notes:-
+
+default methods are declared within classes with its implementation
+used when we want to add new methods to an interface without forcing all classes to implement.
+
+commonly used in evolving apis.
+
+If a class implements multiple interfaces with default methods of same signature it must provide its own implementation.

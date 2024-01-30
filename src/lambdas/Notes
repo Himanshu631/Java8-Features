@@ -1,0 +1,15 @@
+Lambda Expression Notes:
+
+Lambda expression is an anonymous function.
+
+No name
+no return type
+no modifier
+
+Benefits :-
+
+1) enable functional programming in Java
+2) Make code more readable, maintainable, concise
+3) Enable parallel processing
+4) Jar File size reduction
+5) Elimination of shadow variables

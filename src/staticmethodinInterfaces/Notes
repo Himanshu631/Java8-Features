@@ -1,0 +1,10 @@
+Static methods inside interfaces
+
+Defined inside interface with keyword static.
+contain complete definition of the function
+
+cannot be overridden or changed in the implementation class
+
+Can be called only using Interface name, cannot be accessed even by the class(which implements the interface).  
+
+after 1.8 main can also be inside interface.
