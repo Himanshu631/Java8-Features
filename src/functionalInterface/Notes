@@ -1,6 +1,7 @@
 Functional Interface Notes:-
 
-Interface having exactly one abstract method but can have any number of default and static method. We can invoke lambda expression by using functional interface.
+Interface having exactly one abstract method but can have any number of default and static method. 
+We can invoke lambda expression by using functional interface.
 
 Advantage:-
 It restrict interface to be a Functional Interface.

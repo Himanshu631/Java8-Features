@@ -1,0 +1,27 @@
+Anonymous Inner Class Notes:-
+
+Used when functional interface concept is not applicable.
+
+Used to create a body of a function using interface overriding all methods without creating custom class.
+can override multiple methods of the interface unlike functional interfaces.
+
+
+A varible used inside lambda expression is final
+
+ex:- 
+
+public class Main(){
+	private void doSomething(){
+		Employee e = () -> {
+			int x = 10;             // in this case x is a local variable
+			return 100;
+		};
+		
+		Employee e = new Employee() -> {
+			int x = 10;				// here x is an instance variable , hence can be accessed using this
+			public String getSalary(){   
+				return this.x;
+			}
+		};
+	}
+}
