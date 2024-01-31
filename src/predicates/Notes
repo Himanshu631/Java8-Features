@@ -1,6 +1,5 @@
-Predicate Notes:
+Predicate<T>:
+Represents a predicate (boolean-valued function) of one argument.
+Contains methods such as test(T t) to evaluate the predicate on the given argument.
 
-Predicate: to test a condition.
-
-Predicate<T> s = lambda function.
 

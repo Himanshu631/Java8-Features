@@ -1,0 +1,3 @@
+Supplier<T>:
+Represents a supplier of results.
+Contains a method get() to retrieve or generate a result.

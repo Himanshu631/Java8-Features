@@ -1,0 +1,4 @@
+Consumer<T>:
+Represents an operation that accepts a single input argument of type T and returns no result.
+Contains a method accept(T t) to perform the operation on the given argument.
+

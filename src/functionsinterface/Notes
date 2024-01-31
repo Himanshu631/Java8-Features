@@ -1,0 +1,3 @@
+Function<T, R>:
+Represents a function that takes one argument of type T and produces a result of type R.
+Contains a method apply(T t) to apply the function to the given argument.

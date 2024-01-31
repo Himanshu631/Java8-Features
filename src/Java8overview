@@ -1,0 +1,46 @@
+Lambda Expressions:
+Introduced to provide a concise way to express instances of single-method interfaces (functional interfaces).
+Syntax: (parameters) -> expression.
+
+Functional Interfaces:
+Interfaces with a single abstract method, suitable for use with lambda expressions.
+Annotated with @FunctionalInterface for compiler checks.
+
+Stream API:
+Enables functional-style operations on streams of elements, such as filtering, mapping, and reducing.
+Provides parallel processing capabilities for improved performance.
+
+Default Methods:
+Interface methods with a default implementation.
+Allows adding new methods to interfaces without breaking the classes that implement them.
+
+Method References:
+A shorthand notation for lambda expressions to refer to methods by their names.
+
+Types:
+Static method reference: ClassName::staticMethod
+Instance method reference: instance::instanceMethod
+Constructor reference: ClassName::new
+
+Optional class:
+Introduces a container object which may or may not contain a non-null value.
+Helps prevent NullPointerException in some cases.
+
+Default and Static Methods in Interfaces:
+Interfaces can now have method implementations using the default and static keywords.
+
+New Date and Time API (java.time):
+A comprehensive and immutable date and time API, addressing the shortcomings of the old java.util.Date and java.util.Calendar classes.
+
+Nashorn JavaScript Engine:
+Replaces the old Rhino JavaScript engine.
+Provides improved performance and better integration with Java.
+
+Functional Interfaces in java.util.function:
+A set of functional interfaces to represent various types of operations, such as predicates, functions, consumers, and suppliers.
+
+Parallel Array Sorting:
+Arrays class introduced new methods for parallel sorting of arrays.
+
+Compact Profiles:
+Introduces compact profiles for smaller deployments, allowing developers to create custom JREs with only the modules needed for their applications.
