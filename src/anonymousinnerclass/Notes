@@ -6,7 +6,7 @@ Used to create a body of a function using interface overriding all methods witho
 can override multiple methods of the interface unlike functional interfaces.
 
 
-A varible used inside lambda expression is final
+A variable used inside lambda expression is final
 
 ex:- 
 
@@ -19,7 +19,7 @@ public class Main(){
 		
 		Employee e = new Employee() -> {
 			int x = 10;				// here x is an instance variable , hence can be accessed using this
-			public String getSalary(){   
+			public String getSalary(){   // x need to be declared in the inner class only.
 				return this.x;
 			}
 		};
