@@ -1,0 +1,5 @@
+Method references notes:-
+
+Method references allow us to refer to a method without invoking it. 
+This can be used in place of lambda expression when the lambda expression only calls an existing method.
+
